@@ -3,31 +3,90 @@
 #include <omp.h>
 #include <math.h>
 #include <stdio.h>
+#include <stdlib.h>
 
-#define N_TEST_SMALL 500
-#define N_TEST_BIG   2000000
 #define E_TEST       0.001
 #define A_TEST       1.0
 #define B_TEST       9.0
 #define S_EXPECTED   172.0
 
+#define USAGE_MSG "Usage: test_count:int ([s]ingle-threaded n:int | [m]ulti-threaded segment_count:int thread_count:int)\n"
+
 static double f_test(double x);
-static void test(double (*simpson)(double(*)(double), double, double, int), int n);
+static void test(double (*simpson)(double(*)(double), double, double, int));
 
-int main(int argc, char * argv)
+static int n = 0;
+
+int main(int argc, char ** argv)
 {
-	test(simpson_1t, N_TEST_SMALL);
-	test(simpson_1t, N_TEST_BIG);
+	if (argc < 4)
+	{
+		puts(USAGE_MSG);
+		return 0;
+	}
 
-	puts("=======");
+	int test_count = atoi(argv[1]);
+	if (test_count <= 0)
+	{
+		printf("Invalid test count: %s\n", argv[1]);
+		return 0;
+	}
 
-	test(simpson_mt, N_TEST_SMALL);
-	test(simpson_mt, N_TEST_BIG);
+	switch (argv[2][0])
+	{
+		case 's':
+			if (argc != 4)
+			{
+				puts(USAGE_MSG);
+				return 0;
+			}
+			n = atoi(argv[3]);
+			if (n <= 1)
+			{
+				printf("Invalid segment count: %s\n", argv[3]);
+				return 0;
+			}
+			for (int i = 0; i < test_count; i++)
+			{
+				printf("Single-thread simpson demo #%d\n", i);
+				test(simpson_1t);
+				printf("Single-thread simpson demo #%d end\n\n", i);
+			}
+			break;
+		case 'm':
+			if (argc != 5)
+			{
+				puts(USAGE_MSG);
+				return 0;
+			}
+			n = atoi(argv[3]);
+			if (n <= 1)
+			{
+				printf("Invalid segment count: %s\n", argv[3]);
+				return 0;
+			}
+			int num_threads = atoi(argv[4]);
+			if (n <= 0)
+			{
+				printf("Invalid segment count: %s\n", argv[1]);
+				return 0;
+			}
+			for (int i = 0; i < test_count; i++)
+			{
+				printf("Multi-thread simpson demo #%d\n", i);
+				test(simpson_mt);
+				printf("Multi-thread simpson demo #%d end\n\n", i);
+			}
+			break;
+		default:
+			puts(USAGE_MSG);
+			return 0;
+	}
 
 	return 0;
 }
 
-static void test(double (*simpson)(double(*)(double), double, double, int), int n)
+static void test(double (*simpson)(double(*)(double), double, double, int))
 {
 	// Calculating integral
 	double s_time = omp_get_wtime();
