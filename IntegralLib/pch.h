@@ -7,6 +7,6 @@
 #ifndef PCH_H
 #define PCH_H
 
-#include <omp.h>
+#include "integral.h"
 
 #endif //PCH_H

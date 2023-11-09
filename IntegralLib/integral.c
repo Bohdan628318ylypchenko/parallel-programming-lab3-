@@ -1,6 +1,18 @@
 #include "pch.h"
+
 #include "integral.h"
 
+#include <omp.h>
+
+/// <summary>
+/// Numeric integration Simpson method
+/// single-thread implementation.
+/// </summary>
+/// <param name="f"> Function to integrate as fpointer. </param>
+/// <param name="a"> Integration segment start. </param>
+/// <param name="b"> Integration segment end. </param>
+/// <param name="n"> Elementary segment count. </param>
+/// <returns> Integral value as double. </returns>
 double simpson_1t(double (*f)(double x), double a, double b, int n)
 {
 	// Calculation storage
@@ -28,6 +40,15 @@ double simpson_1t(double (*f)(double x), double a, double b, int n)
 	return (h / 3.0) * (p1 + p2 + p3 + p4);
 }
 
+/// <summary>
+/// Numeric integration Simpson method
+/// multi-thread implementation.
+/// </summary>
+/// <param name="f"> Function to integrate as fpointer. </param>
+/// <param name="a"> Integration segment start. </param>
+/// <param name="b"> Integration segment end. </param>
+/// <param name="n"> Elementary segment count. </param>
+/// <returns> Integral value as double. </returns>
 double simpson_mt(double (*f)(double x), double a, double b, int n)
 {
 	// Calculation storage

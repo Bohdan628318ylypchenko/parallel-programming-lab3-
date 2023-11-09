@@ -1,0 +1,15 @@
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe s 950
+s_actual = 172.000000, time = 0.000005, diff = 0.000000
+s_actual = 172.000000, time = 0.000005, diff = 0.000000
+s_actual = 172.000000, time = 0.000005, diff = 0.000000
+s_actual = 172.000000, time = 0.000005, diff = 0.000000
+s_actual = 172.000000, time = 0.000005, diff = 0.000000
+min time = 0.000005
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe s 1100500
+s_actual = 172.000000, time = 0.005521, diff = 0.000000
+s_actual = 172.000000, time = 0.005827, diff = 0.000000
+s_actual = 172.000000, time = 0.005544, diff = 0.000000
+s_actual = 172.000000, time = 0.005753, diff = 0.000000
+s_actual = 172.000000, time = 0.005588, diff = 0.000000
+min time = 0.005521
+PS J:\repos\Parallel computing\Integral\x64\Release>

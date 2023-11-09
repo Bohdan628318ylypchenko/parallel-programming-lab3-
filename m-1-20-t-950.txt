@@ -1,0 +1,141 @@
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe m 950 1
+s_actual = 172.000000, time = 0.000011, diff = 0.000000
+s_actual = 172.000000, time = 0.000023, diff = 0.000000
+s_actual = 172.000000, time = 0.000006, diff = 0.000000
+s_actual = 172.000000, time = 0.000006, diff = 0.000000
+s_actual = 172.000000, time = 0.000006, diff = 0.000000
+min time = 0.000006
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe m 950 2
+s_actual = 172.000000, time = 0.000265, diff = 0.000000
+s_actual = 172.000000, time = 0.000006, diff = 0.000000
+s_actual = 172.000000, time = 0.000006, diff = 0.000000
+s_actual = 172.000000, time = 0.000006, diff = 0.000000
+s_actual = 172.000000, time = 0.000006, diff = 0.000000
+min time = 0.000006
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe m 950 3
+s_actual = 172.000000, time = 0.000444, diff = 0.000000
+s_actual = 172.000000, time = 0.000018, diff = 0.000000
+s_actual = 172.000000, time = 0.000024, diff = 0.000000
+s_actual = 172.000000, time = 0.000005, diff = 0.000000
+s_actual = 172.000000, time = 0.000006, diff = 0.000000
+min time = 0.000005
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe m 950 4
+s_actual = 172.000000, time = 0.000482, diff = 0.000000
+s_actual = 172.000000, time = 0.000025, diff = 0.000000
+s_actual = 172.000000, time = 0.000009, diff = 0.000000
+s_actual = 172.000000, time = 0.000007, diff = 0.000000
+s_actual = 172.000000, time = 0.000007, diff = 0.000000
+min time = 0.000007
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe m 950 5
+s_actual = 172.000000, time = 0.000596, diff = 0.000000
+s_actual = 172.000000, time = 0.000006, diff = 0.000000
+s_actual = 172.000000, time = 0.000007, diff = 0.000000
+s_actual = 172.000000, time = 0.000006, diff = 0.000000
+s_actual = 172.000000, time = 0.000005, diff = 0.000000
+min time = 0.000005
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe m 950 6
+s_actual = 172.000000, time = 0.001268, diff = 0.000000
+s_actual = 172.000000, time = 0.000013, diff = 0.000000
+s_actual = 172.000000, time = 0.000010, diff = 0.000000
+s_actual = 172.000000, time = 0.000027, diff = 0.000000
+s_actual = 172.000000, time = 0.000028, diff = 0.000000
+min time = 0.000010
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe m 950 7
+s_actual = 172.000000, time = 0.000732, diff = 0.000000
+s_actual = 172.000000, time = 0.000024, diff = 0.000000
+s_actual = 172.000000, time = 0.000007, diff = 0.000000
+s_actual = 172.000000, time = 0.000027, diff = 0.000000
+s_actual = 172.000000, time = 0.000012, diff = 0.000000
+min time = 0.000007
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe m 950 8
+s_actual = 172.000000, time = 0.000915, diff = 0.000000
+s_actual = 172.000000, time = 0.000020, diff = 0.000000
+s_actual = 172.000000, time = 0.000096, diff = 0.000000
+s_actual = 172.000000, time = 0.000021, diff = 0.000000
+s_actual = 172.000000, time = 0.000083, diff = 0.000000
+min time = 0.000020
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe m 950 9
+s_actual = 172.000000, time = 0.000847, diff = 0.000000
+s_actual = 172.000000, time = 0.000057, diff = 0.000000
+s_actual = 172.000000, time = 0.000020, diff = 0.000000
+s_actual = 172.000000, time = 0.000014, diff = 0.000000
+s_actual = 172.000000, time = 0.000016, diff = 0.000000
+min time = 0.000014
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe m 950 10
+s_actual = 172.000000, time = 0.001107, diff = 0.000000
+s_actual = 172.000000, time = 0.000015, diff = 0.000000
+s_actual = 172.000000, time = 0.000017, diff = 0.000000
+s_actual = 172.000000, time = 0.000014, diff = 0.000000
+s_actual = 172.000000, time = 0.000018, diff = 0.000000
+min time = 0.000014
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe m 950 11
+s_actual = 172.000000, time = 0.000930, diff = 0.000000
+s_actual = 172.000000, time = 0.000019, diff = 0.000000
+s_actual = 172.000000, time = 0.000020, diff = 0.000000
+s_actual = 172.000000, time = 0.000059, diff = 0.000000
+s_actual = 172.000000, time = 0.000021, diff = 0.000000
+min time = 0.000019
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe m 950 12
+s_actual = 172.000000, time = 0.000817, diff = 0.000000
+s_actual = 172.000000, time = 0.000017, diff = 0.000000
+s_actual = 172.000000, time = 0.000019, diff = 0.000000
+s_actual = 172.000000, time = 0.000025, diff = 0.000000
+s_actual = 172.000000, time = 0.000020, diff = 0.000000
+min time = 0.000017
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe m 950 13
+s_actual = 172.000000, time = 0.000859, diff = 0.000000
+s_actual = 172.000000, time = 0.000022, diff = 0.000000
+s_actual = 172.000000, time = 0.000039, diff = 0.000000
+s_actual = 172.000000, time = 0.000021, diff = 0.000000
+s_actual = 172.000000, time = 0.000067, diff = 0.000000
+min time = 0.000021
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe m 950 14
+s_actual = 172.000000, time = 0.001804, diff = 0.000000
+s_actual = 172.000000, time = 0.000063, diff = 0.000000
+s_actual = 172.000000, time = 0.000039, diff = 0.000000
+s_actual = 172.000000, time = 0.000021, diff = 0.000000
+s_actual = 172.000000, time = 0.000018, diff = 0.000000
+min time = 0.000018
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe m 950 15
+s_actual = 172.000000, time = 0.001163, diff = 0.000000
+s_actual = 172.000000, time = 0.000081, diff = 0.000000
+s_actual = 172.000000, time = 0.000027, diff = 0.000000
+s_actual = 172.000000, time = 0.000016, diff = 0.000000
+s_actual = 172.000000, time = 0.000032, diff = 0.000000
+min time = 0.000016
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe m 950 16
+s_actual = 172.000000, time = 0.001089, diff = 0.000000
+s_actual = 172.000000, time = 0.000031, diff = 0.000000
+s_actual = 172.000000, time = 0.000030, diff = 0.000000
+s_actual = 172.000000, time = 0.000085, diff = 0.000000
+s_actual = 172.000000, time = 0.000024, diff = 0.000000
+min time = 0.000024
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe m 950 17
+s_actual = 172.000000, time = 0.001066, diff = 0.000000
+s_actual = 172.000000, time = 0.000048, diff = 0.000000
+s_actual = 172.000000, time = 0.000064, diff = 0.000000
+s_actual = 172.000000, time = 0.000022, diff = 0.000000
+s_actual = 172.000000, time = 0.000025, diff = 0.000000
+min time = 0.000022
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe m 950 18
+s_actual = 172.000000, time = 0.001118, diff = 0.000000
+s_actual = 172.000000, time = 0.000030, diff = 0.000000
+s_actual = 172.000000, time = 0.000053, diff = 0.000000
+s_actual = 172.000000, time = 0.000084, diff = 0.000000
+s_actual = 172.000000, time = 0.000041, diff = 0.000000
+min time = 0.000030
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe m 950 19
+s_actual = 172.000000, time = 0.001409, diff = 0.000000
+s_actual = 172.000000, time = 0.000087, diff = 0.000000
+s_actual = 172.000000, time = 0.000052, diff = 0.000000
+s_actual = 172.000000, time = 0.000030, diff = 0.000000
+s_actual = 172.000000, time = 0.000035, diff = 0.000000
+min time = 0.000030
+PS J:\repos\Parallel computing\Integral\x64\Release> .\IntegralDemo.exe m 950 20
+s_actual = 172.000000, time = 0.001924, diff = 0.000000
+s_actual = 172.000000, time = 0.000061, diff = 0.000000
+s_actual = 172.000000, time = 0.000033, diff = 0.000000
+s_actual = 172.000000, time = 0.000034, diff = 0.000000
+s_actual = 172.000000, time = 0.000027, diff = 0.000000
+min time = 0.000027
+PS J:\repos\Parallel computing\Integral\x64\Release>
